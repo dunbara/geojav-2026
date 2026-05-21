@@ -516,7 +516,7 @@ p.add_slider_widget(
 
 actor_threshold = p.add_slider_widget(
     callback_threshold,
-    (0.1, 500.0),
+    (0.0, 500.0),
     value=threshold,
     pointa=(0.55, 0.80),
     pointb=(0.90, 0.80),
